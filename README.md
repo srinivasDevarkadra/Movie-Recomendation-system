@@ -18,4 +18,14 @@ To explore the movie recommendation system and view the analyses, follow these s
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/movie-recommendation-system.git
+2. **Naviagate to react-app:**
+    ```do npm install and npm start
+3. **Naviagate  to reac-server in another terminal tab:**
+    ```python3 server.py
+4.  **Open in Browser:**
+    ```http://localhost:3000/ to access the movie recommendation system.
+
+
+
+
 
