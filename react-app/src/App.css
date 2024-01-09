@@ -1,0 +1,45 @@
+/* Sidebar Styles */
+.sidebar {
+  width: 200px;
+  height: 100vh; /* Full height */
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 10px; /* Adjust as needed */
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow for better visual separation */
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 10px; /* Space between links */
+  text-decoration: none;
+  /* Add more styling as needed */
+}
+
+/* Main Content Styles */
+.main-content {
+  margin-left: 220px; /* Adjust based on sidebar width + margin */
+  padding: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}

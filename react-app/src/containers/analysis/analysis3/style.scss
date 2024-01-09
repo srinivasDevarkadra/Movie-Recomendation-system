@@ -1,0 +1,13 @@
+/* src/App.css */
+.charts-row {
+  display: flex;
+  justify-content: space-between; /* Adjust this to control spacing between charts */
+}
+
+.chart {
+  width: calc(25% - 10px); /* Adjust the width for 4 charts in a row */
+  margin-right: 10px; /* Adjust the margin for spacing between charts */
+  padding: 10px;
+  background-color: #bea8a8; /* Background color for chart containers */
+  border: 1px solid #ccc; /* Border for chart containers */
+}
